@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<section class="archive fancy-center">
+  <h2 class="section-title">Archive</h2>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li class="post-item">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>&nbsp;&#45;&nbsp;<small><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></small>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
