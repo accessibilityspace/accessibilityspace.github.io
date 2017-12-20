@@ -43,6 +43,7 @@ body {
     height: 100%;
     width:100%;
     border-left: 5px solid #3498db;
+    border-right: 5px solid #9b59b6;
 }
 
 .post-list {
@@ -71,7 +72,7 @@ html, body {
 }
 
 .site-header {
-    a {
+    .go-home {
         text-decoration: none;
 
         &:hover, &:focus {
@@ -128,7 +129,7 @@ body {
 }
 
 #content {
-    padding-right: 1em;
+    padding-right: 2em;
 }
 
 .main-header-title {
