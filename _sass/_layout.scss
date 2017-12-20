@@ -69,6 +69,8 @@ body {
 
 html, body {
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .site-header {
@@ -148,7 +150,7 @@ body {
 }
 
 .post-link {
-    font-size: 23px;
+    font-size: 2em;
     line-height: 1.1;
 }
 
@@ -183,8 +185,8 @@ body {
 }
 
 .post-title {
-    font-size: 33px;
-    margin-bottom: 0.5em;
+    font-size: 2.5em;
+    margin-bottom: 0.25em;
 }
 
 .post-meta {
@@ -226,4 +228,24 @@ pre code {
     white-space: pre-wrap;
     background-color: transparent;
     border-radius: 0;
+}
+
+/* Post styles move to -> _posts.scss */
+
+.post-section {
+    margin-bottom: 2em;
+}
+
+.post-section-title {
+    color: #9b59b6;
+    font-family: 'Georgia';
+    font-size: 2em;
+    font-style: italic;
+    margin-bottom: 0.5em;
+}
+
+.post-list-item {
+    margin-bottom: 0.5em;
+    font-size: 1.4em;
+    line-height: 1.4;
 }
