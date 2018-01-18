@@ -24,7 +24,7 @@ permalink: /:title/
 
 sass: 
   style: compressed
-
-# analytics: UA-83979019-1
+ 
+analytics: UA-60494433-3
 
 version: 1.0
