@@ -41,7 +41,7 @@ categories: accessibility voiceover screen-reader a11y
         </tr>
     </table>
     <p class="post-paragraph"><em>You can still use the <kbd>Tab</kbd> key to navigate like if you were not using a Screen Reader</em></p>
-    <p class="post-paragraph">Beyond these really basic actions, there are more specific actions that also were mentioned to me by some of the amazing disabled users of Doodle. You could for instance, go the the next link, or form control, or list. My assumption is that power users of Screen Readers use those once they have the topology of the site in their heads.</p>
+    <p class="post-paragraph">Beyond these really basic actions, there are more specific actions that also were mentioned to me by some of the amazing disabled users of Doodle. You could for instance, go to the next link, or form control, or list. My assumption is that power users of Screen Readers use those once they have the topology of the site in their heads.</p>
     <p class="post-paragraph">The next actions can be combined with <kbd>Shift</kbd> to go to the <em>previous</em> occurrence.</p>
     <table class="post-table">
         <tr>
