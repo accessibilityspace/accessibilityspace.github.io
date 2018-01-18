@@ -89,6 +89,7 @@ html, body {
     .main-header-title {
         color: #1B7BBB;
     }
+    padding-bottom: 2em;
 }
 
 a {
@@ -161,7 +162,7 @@ body {
          width: 100%;
          border: none;
          
-         width: 80%;
+         width: 60%;
          margin: 0 auto;
          border-width: 0;
          border-left-width: 3px;
@@ -209,7 +210,7 @@ pre {
     border-radius: 4px;
 }
 
-code {
+code, kbd {
     padding: 2px 4px;
     font-size: 90%;
     color: #c7254e;
@@ -230,6 +231,41 @@ pre code {
     border-radius: 0;
 }
 
+/* Table styles borrowed from: http://cssmenumaker.com/blog/stylish-css-tables-tutorial/ */
+table {  
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 640px; 
+    border-collapse: 
+    collapse; border-spacing: 0; 
+}
+
+td, th {  
+    border: 1px solid transparent; /* No more visible border */
+    height: 1.5em; 
+    transition: all 0.3s;  /* Simple transition for hover effect */
+    padding: 0.5em;
+}
+
+th {  
+    background: #DFDFDF;  /* Darken header a bit */
+    font-weight: bold;
+}
+
+td {  
+    background: #FAFAFA;
+    text-align: center;
+}
+
+/* Cells in even rows (2,4,6...) are one color */        
+tr:nth-child(even) td { background: #F1F1F1; }   
+
+/* Cells in odd rows (1,3,5...) are another (excludes header cells)  */        
+tr:nth-child(odd) td { background: #FEFEFE; }  
+
+tr td:hover { background: #666; color: #FFF; }  
+/* Hover cell effect! */
+
 /* Post styles move to -> _posts.scss */
 
 .post-section {
@@ -246,6 +282,27 @@ pre code {
 
 .post-list-item {
     margin-bottom: 0.5em;
-    font-size: 1.4em;
     line-height: 1.4;
+}
+
+.post-paragraph {
+    margin-bottom: 1em;
+    line-height: 1.4;
+}
+
+.post-paragraph, .post-list-item {
+    font-size: 1.4em;
+}
+
+
+.post-table {
+    margin: 2.5em 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
 }
