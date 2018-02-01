@@ -259,6 +259,38 @@ pre code {
     font-size: 1.4em;
 }
 
+.post-fact-container {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+strong.post-paragraph-fact {
+    color: #419e90;
+}
+
+.post-fact {
+    color: #419e90;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.post-fact-alternate-color {
+    color: #5289b9;
+    // color: #9b59b6;
+}
+
+.post-fact-caption {
+    font-style: italic;
+}
+
+.post-list {
+    margin-left: 1.75em;
+    list-style-type: decimal;
+}
+
+.post-list-item {
+    font-size: 1.25em;
+}
 
 .post-table {
     margin: 2.5em 0;
