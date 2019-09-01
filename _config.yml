@@ -25,6 +25,4 @@ permalink: /:title/
 sass: 
   style: compressed
  
-analytics: UA-60494433-3
-
 version: 1.0
