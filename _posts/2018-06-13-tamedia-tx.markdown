@@ -43,7 +43,9 @@ categories: accessibility talk a11y resources Tamedia
     </ul>
 </section>
 <section class="post-section">
-    <h2 class="post-section-title">Slides</h2>
+    <h2 class="post-section-title">Talk recording and slides</h2>
     <p class="post-paragraph">
-        I hope to post the slides soon but I have to clean my notes and put them a bit in order :). Thanks for the care :)
+        Here you can find the <a href="https://www.youtube.com/watch?v=HnUXzMFVMLY">recording of the talk</a> and the <a href="https://drive.google.com/file/d/1UOErUFQjoodPvVd6ONLoHx_VWvfCUJ1v/view?usp=sharing">PDF</a> of the slides.
+
+        <iframe style="margin-top: 1rem; max-width: 100%;" src="https://docs.google.com/presentation/d/e/2PACX-1vRViCoruiHmmxQh3sjO5BjuwR6ZzJXSgreJicgYyC95ylwJAqCUPRYNk0iY_kuh8Ro3UjBCgUCvQ1T0/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
     </p>
